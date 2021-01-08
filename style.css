@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'SFPro';
+	src: url('SFPro.otf');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	padding: 40px;
+}
+
+.top {
+	display: flex;
+	justify-content: space-between;
+	width: 447px;
+	height: 32px;
+	align-items: center;
+}
+
+.logo {
+	flex-grow: 0;
+}
+
+.top nav {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	width: 227px;
+	justify-content: space-between;
+	font-family: SFPro;
+	font-size: 16px;
+}
+
+.big-text {
+	font-family: SFPro;
+	font-size: 70px;
+	line-height: 95px;
+	max-width: 825px;
+	margin-top: 292px;
+	letter-spacing: 1%;
+}
+
+.blue {
+	background-color: #e3f8fa;
+	width: 440px;
+	height: 820px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 12px;
+}
+
+.big-blue {
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom {
+	font-family: SFPro;
+	font-size: 14px;
+	line-height: 140%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 850px;
+}
+
+.bottom p {
+	max-width: 300px;
+}
+
+.vectors {
+	background-color: #9BF4E9;
+	width: 54px;
+	height: 54px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+
+.small-text {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
